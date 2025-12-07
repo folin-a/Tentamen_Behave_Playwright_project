@@ -34,7 +34,7 @@ Behave_playwright_project/
 ### Viktiga filer
 
 - **`STORIES.md`** – Innehåller alla user stories med acceptanskriterier. Varje feature-fil refererar till sin user story.
-- **`features/steps/environment.py`** – Konfiguration för testmiljön (webbläsare, hooks, etc.)
+- **`features/environment.py`** – Konfiguration för testmiljön (webbläsare, hooks, etc.)
 - **`pages/`** – Page Object-klasser för strukturerad och underhållbar testkod
 ---
 ## Komma igång
