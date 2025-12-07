@@ -120,11 +120,11 @@ behave -v
 
 - **Webbläsare:** Chromium (headless mode)
 - **Test-URL:** https://tap-vt25-testverktyg.github.io/exam--reading-list/
-- **Konfigurationsfil:** `features/steps/environment.py`
+- **Konfigurationsfil:** `features/environment.py`
 
 ### Ändra webbläsare eller headless-läge
 
-Redigera `features/steps/environment.py` för att anpassa inställningar:
+Redigera `features/environment.py` för att anpassa inställningar:
 
 ```python
 # Exempel: Kör med synlig webbläsare
