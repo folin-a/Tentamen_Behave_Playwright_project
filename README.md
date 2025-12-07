@@ -78,14 +78,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Alternativt installera manuellt om `requirements.txt` inte fungerar:
+Alternativt installera manuellt om `requirements.txt` inte helt fungerar:
 
 ```bash
 pip install pytest-playwright
 playwright install
 pip install behave
 ```
-> **OBS:** Kommandot `playwright install` laddar ner nödvändiga webbläsare (Chromium, Firefox, WebKit).
+> **OBS:** Kommandot `playwright install` laddar ner nödvändiga webbläsare (Chromium, Firefox, WebKit), om ditt system inte har browsers måste playwright install köras även när requirements installerar resten.
 ---
 ## ▶️ Köra tester
 
@@ -94,7 +94,7 @@ pip install behave
 Alla Behave-kommandon måste köras från `src`-mappen:
 
 ```bash
-cd Tentamen_Behave_Playwright_project/src
+cd src
 ```
 ### Kör alla tester
 
