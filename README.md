@@ -25,8 +25,8 @@ Behave_playwright_project/
 │   ├── features/               # Gherkin feature-filer (.feature)
 │   │   └── steps/              # Stepdefinitioner och environment.py
 │   ├── pages/                  # Page Object Model-klasser
-│   ├── README.md               # Denna fil
-│   └── STORIES.md              # User stories med acceptanskriterier
+│── README.md                   # Denna fil
+│── STORIES.md                  # User stories med acceptanskriterier
 └── requirements.txt            # Python-beroenden
 ```
 
